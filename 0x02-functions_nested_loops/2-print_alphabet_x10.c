@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints the alphabets 10 times
+ * print_alphabet_x10 - Prints the alphabet 10 times
  *
- * return: always 0 (success)
- *
+ * Return: Alwats 0 (Success)
  */
-
 void print_alphabet_x10(void)
 {
 	int a;
@@ -13,7 +11,7 @@ void print_alphabet_x10(void)
 
 	for (b = 1; a <= 10; a++)
 	{
-		for (b = 97; a <= 122; b++)
+		for (b = 97; b <= 122; b++)
 		{
 			_putchar(b);
 		}
