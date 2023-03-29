@@ -3,30 +3,22 @@
 /**
  * puts2 - prints every other character of a string, starting
  * with the first character, followed by a new line
- * #str: input
+ * @str: input
  * Return:
  */
 
-void puts_half(char *str)
+void puts2(char *str)
 {
 	int longi = 0;
-	int t = 0;
-	char *y = str;
-	int 0;
-		
-	while (*y t = '\0')
+	int t;
+
+	while (str[longi] != '\0')
 	{
-		y++;
 		longi++;
 	}
-
-	t = longi - 1;
-	for (O = 0; O <= t; O++)
+	for (t = 0; t < longi; t += 2)
 	{
-		if (O % 2 == 0)
-		{		
-			_putchar(str[0]);
-		}
+		_putchar(str[t]);
 	}
 	_putchar('\n');
 }
